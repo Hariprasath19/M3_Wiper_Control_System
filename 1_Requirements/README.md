@@ -1,39 +1,42 @@
 # M3_WIPER_CONTROL_SYSTEM
-* This Wiper Speed Control System is utilised in all sorts of automobiles, and its primary function is to remove rain air drops from the vehicle's front screen. Because driving a vehicle in the rain is quite difficult, we will use wipers to clear the front screen of the vehicle, which is a mirror, so that we may drive the vehicle even in the rain.
+* This Wiper Speed Control System is utilised in all sorts of automobiles, and its main function is to remove the rain air drops from the vehicle's front screen. Because driving a vehicle in the rain is very difficult, so, we will use wipers to clear the front screen of the vehicle, which is a mirror, so that even in the rain, we may drive the vehicle.
 
 ## WORKING PROCESS
-* When the button is pressed ONCE, the car will be on ACC mode.
+* If the button is pressed ONCE, the car will be on AC mode.
 
-* When the button is pressed TWICE, the car will be on Ignition mode.
+* If the button is pressed TWICE, the car will be on Ignition mode.
 
-* When the button is pressed THREE times, wiper turn on.
+* If the button is pressed THREE times, wiper turn on.
 
-* When the button is pressed FOUR times, wiper turn off.
+* If the button is pressed FOUR times, wiper turn off.
 
 # SWOT Analysis
+
 ## Strength
-* Visibility
+* Visibility, while drive the car.
 * The wiper does not stop in the middle of the window during drive.
-* Safety
+* Safety - a main strength.
+
 ## Weakness
-* High cost
-* Not automatic
+* High cost.
+* Not automatic.
+
 ## Threats
-* Once the board repaired cannot be replaced quickly
+* If the board is repaired, It cannot be replaced quickly.
 
 ## Requirements
 ### High level requirements
 | ID	  | Description	|status |
 |-------|-------------|-------|
-| HR_01	|Car is in ACC mode	|Implemented |
-| HR_02	|Car is in Ignition mode |Implemented  |
-| HR_03	|Wiper turned on |	Implemented |
-| HR_04	|Wiper turned off	|Implemented |
+| HLR_01	|Car is in AC mode	|IMPLEMENTED |
+| HLR_02	|Car is in Ignition mode |IMPLEMENTED  |
+| HLR_03	|Wiper turned on |	IMPLEMENTED |
+| HLR_04	|Wiper turned off	|IMPLEMENTED |
 
 ### Low level requirements
 |ID	   |  Description	              |   status |
 |------|----------------------------|-----------|
-|LR_01 | Button pressed ONCE for two seconds - ON LED RED|	Implemented|
-|LR_02 | Button pressed once again times - OFF LED RED|	Implemented|
-|LR_03 |	Button pressed two time - ON BLUE,GREEN,ORANGE|	Implemented|
-|LR_04 |	Button pressed again for two seconds - OFF ORANGE,GREEN,BLUE|	Implemented|
+|LLR_01 | Button pressed ONCE for two seconds - ON LED RED|	IMPLEMENTED|
+|LLR_02 | Button pressed once again times - OFF LED RED|	IMPLEMENTED|
+|LLR_03 |	Button pressed two time - ON BLUE,GREEN,ORANGE|	IMPLEMENTED|
+|LLR_04 |	Button pressed again for two seconds - OFF ORANGE,GREEN,BLUE|	IMPLEMENTED|
