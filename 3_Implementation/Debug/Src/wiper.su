@@ -1,0 +1,2 @@
+../Src/wiper.c:221:6:Default_Handler	4	static
+../Src/wiper.c:226:6:Reset_Handler	32	static
