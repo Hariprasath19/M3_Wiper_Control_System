@@ -4,3 +4,5 @@
 
 
 [![CI](https://github.com/Hariprasath19/M3_Wiper_Control_System/actions/workflows/main.yml/badge.svg)](https://github.com/Hariprasath19/M3_Wiper_Control_System/actions/workflows/main.yml)
+
+[![Build CI - Linux](https://github.com/Hariprasath19/M3_Wiper_Control_System/actions/workflows/Build%20on%20linux.yml/badge.svg)](https://github.com/Hariprasath19/M3_Wiper_Control_System/actions/workflows/Build%20on%20linux.yml)
