@@ -59,8 +59,5 @@
 ### Video
 
 
-Uploading Wiper Control System using STM32CubeIDE - Compressed with FlexClip.mp4…
-
-
 
 
