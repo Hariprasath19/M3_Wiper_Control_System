@@ -1,8 +1,7 @@
 /*
  * MyStm32f407xx_gpio_driver.h
  *
- *  Created on: Aug 17, 2020
- *      Author: 40010750
+ *
  */
 
 #ifndef INC_MYSTM32F407XX_GPIO_DRIVER_H_
@@ -16,7 +15,7 @@
  */
 typedef struct
 {
-	uint8_t GPIO_PinNumber;
+	uint8_t GPIO_PinNo;
 	uint8_t GPIO_PinMode;			/*!< possible values from @GPIO_PIN_MODES >*/
 	uint8_t GPIO_PinSpeed;			/*!< possible values from @GPIO_PIN_SPEED >*/
 	uint8_t GPIO_PinPuPdControl;
@@ -24,10 +23,6 @@ typedef struct
 	uint8_t GPIO_PinAltFunMode;
 }GPIO_PinConfig_t;
 
-
-/*
- * This is a Handle structure for a GPIO pin
- */
 
 typedef struct
 {
@@ -96,7 +91,7 @@ typedef struct
 #define GPIO_PIN_PD			2
 
 /******************************************************************************************
- *								APIs supported by this driver
+ *				APIs supported by this driver
  *		 For more information about the APIs check the function definitions
  ******************************************************************************************/
 
@@ -115,11 +110,11 @@ void GPIO_DeInit(GPIO_RegDef_t *pGPIOx);
 /*
  * Data read and write
  */
-uint8_t GPIO_ReadFromInputPin(GPIO_RegDef_t *pGPIOx, uint8_t PinNumber);
+uint8_t GPIO_ReadFromInputPin(GPIO_RegDef_t *pGPIOx, uint8_t PinNo);
 uint16_t GPIO_ReadFromInputPort(GPIO_RegDef_t *pGPIOx);
-void GPIO_WriteToOutputPin(GPIO_RegDef_t *pGPIOx, uint8_t PinNumber, uint8_t Value);
+void GPIO_WriteToOutputPin(GPIO_RegDef_t *pGPIOx, uint8_t PinNo, uint8_t Value);
 void GPIO_WriteToOutputPort(GPIO_RegDef_t *pGPIOx, uint16_t Value);
-void GPIO_ToggleOutputPin(GPIO_RegDef_t *pGPIOx, uint8_t PinNumber);
+void GPIO_ToggleOutputPin(GPIO_RegDef_t *pGPIOx, uint8_t PinNo);
 
 
 /*
@@ -127,7 +122,7 @@ void GPIO_ToggleOutputPin(GPIO_RegDef_t *pGPIOx, uint8_t PinNumber);
  */
 void GPIO_IRQInterruptConfig(uint8_t IRQNumber, uint8_t EnorDi);
 void GPIO_IRQPriorityConfig(uint8_t IRQNumber, uint32_t IRQPriority);
-void GPIO_IRQHandling(uint8_t PinNumber);
+void GPIO_IRQHandling(uint8_t PinNo);
 
 
 #endif
